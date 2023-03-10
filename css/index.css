@@ -288,7 +288,8 @@ footer {
 .mail a{
     color:white
 }
-.downmenu ul h4 {
+.downmenu ul h4 a {
+    
     display: flex;
     justify-content: center;
     gap:100px;
