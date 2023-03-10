@@ -197,19 +197,20 @@ footer {
 }
 
 /* mobile media query */
-@media (max-width: 428px) {
+@media only screen and (max-width: 428px) {
     /* header section */
-    
 
     /* gallery section */
     .gallery {
         height: auto;
+        flex-direction: column;
     }
     
     /* about us section */
 
     .about {
         height: 200vh;
+        text-align: center;
     }
     
     .about h2 {
@@ -263,6 +264,7 @@ footer {
     display: flex;
     justify-content: center;
     gap:200px;
+    flex-wrap: wrap;
     
 }
 .menu h3 a {
@@ -292,7 +294,7 @@ footer {
     
     display: flex;
     justify-content: center;
-    gap:100px;
+    gap: 25px;
     
 }
 .downmenu ul h4 a{
@@ -326,6 +328,7 @@ footer {
 }
 footer{
     background-color: black;
+    flex-wrap: wrap;
 
 }
 button{

@@ -142,11 +142,18 @@ footer {
         margin: 0 auto;
         text-align: center;
         font-size: 4rem;
+   
+    }
+    .mainpage header h1{
+        color: blue;
+        flex-wrap: wrap;
     }
 
     /* menu */
     .menu {
         background-image: none;
+        display: flex;
+        flex-direction: column;
     }
 
     /* footer section */
