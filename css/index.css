@@ -261,7 +261,8 @@ footer {
 }
 .menu ul h3{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap:200px;
     
 }
 .menu h3 a {
@@ -271,11 +272,7 @@ footer {
     color: white;
     text-align: center;
 }
-.social img{
-   
-    width: 150px;
-    height: 150px;
-}
+
 .gallery img{
     display: flex;
     display: inline-flex;
@@ -291,14 +288,15 @@ footer {
 .mail a{
     color:white
 }
-.downmenu ul h4 {
+.downmenu ul h4 li{
     display: flex;
     justify-content: center;
-    gap:100px;
+    gap:50px;
     
 }
 .downmenu ul h4 a{
     color: white;
+    
 }
 .downmenu ul h4 {
     color: white;
@@ -319,4 +317,16 @@ footer {
 }
 .menu a{
     color: white;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    gap:80px;
+}
+footer{
+    background-color: black;
+
+}
+button{
+    font-size: large;
 }
