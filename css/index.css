@@ -250,4 +250,73 @@ footer {
         padding-top: 2.5vh;
         font-size: 2rem;
     }
+    
+}
+.menu {
+    color:white ;
+    background-color: rgb(0, 4, 17, .8);
+}
+.menu h1{
+    text-align: center;
+}
+.menu ul h3{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.menu h3 a {
+    color: white;
+}
+.text{
+    color: white;
+    text-align: center;
+}
+.social img{
+   
+    width: 150px;
+    height: 150px;
+}
+.gallery img{
+    display: flex;
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 480px;
+}
+.gallery h2{
+    color: white;
+}
+.contact-container{
+    color: white;
+}
+.mail a{
+    color:white
+}
+.downmenu ul h4 {
+    display: flex;
+    justify-content: center;
+    gap:100px;
+    
+}
+.downmenu ul h4 a{
+    color: white;
+}
+.downmenu ul h4 {
+    color: white;
+    
+        background-color: black;
+}
+.styles{
+    background-color: black;
+    color: white;
+    font-size: xx-large;
+}
+.lastword{
+    display: flex;
+    justify-content: end;
+    font-size: large;
+    background-color: black;
+    color: white;
+}
+.menu a{
+    color: white;
 }
