@@ -203,9 +203,15 @@ footer {
     /* gallery section */
     .gallery {
         height: auto;
-        flex-direction: column;
+        width: 350%;
+    flex-wrap: wrap;
+    flex-direction: column;
     }
-    
+    .gallery img{
+        padding: 0;
+    margin-left: 0;
+    padding-top: 30px;
+    }
     /* about us section */
 
     .about {

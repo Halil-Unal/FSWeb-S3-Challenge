@@ -146,15 +146,23 @@ footer {
     }
     .mainpage header h1{
         color: blue;
-        flex-wrap: wrap;
+        text-align: center;
+        margin-left: 0;
+        width: 20%;
     }
 
     /* menu */
     .menu {
         background-image: none;
-        display: flex;
-        flex-direction: column;
+     
+        text-align: center;
     }
+    .menu ul li {
+    display: block;
+  }
+  .first{
+    
+  }
 
     /* footer section */
     footer {
@@ -185,6 +193,7 @@ footer {
 .menu h1{
     text-align: center;
     color: white;
+    flex-wrap: wrap;
 }
 .first{
 display: flex;
