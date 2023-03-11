@@ -220,9 +220,8 @@ footer {
        
         height: auto;
         width: 375px;
-        padding: 0;
-        margin-left: 0;
-        padding-top: 40px;
+       
+    
             
     }
     /* gallery section */
@@ -231,11 +230,7 @@ footer {
         width: 375px;
     
     }
-    .gallery img{
-        padding: 0;
-    margin-left: 0;
-    padding-top: 30px;
-    }
+ 
     /* about us section */
 
     .about {
