@@ -256,6 +256,7 @@ footer {
     /* contact us section */
     .contact h3 {
         padding-top: 2.5vh;
+        margin-right: 50PX;
     }
     
     .info {
@@ -284,7 +285,7 @@ footer {
         width: 375px;
         text-align: center;
     }
-    .downmenu nav ul h4 {
+     .downmenu nav ul h4 {
         text-align: center;
         margin-left: 30px;
         width: 300px;
